@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "doctor-therapist"
+name = "rag-conversation"
 version = "0.0.1"
-description = "Imitation of a dialogue between a human and a therapist"
+description = "RAG conversation"
 authors = []
 readme = "README.md"
 
@@ -17,7 +17,7 @@ fastapi = ">=0.104.0,<1"
 sse-starlette = "^1.6.5"
 
 [tool.langserve]
-export_module = "doctor_herapist.chain"
+export_module = "rag_conversation.chain"
 export_attr = "chain"
 
 [tool.templates-hub]
